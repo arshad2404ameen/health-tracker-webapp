@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Health Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Daily Health Tracker</h1>
+
+  <form id="healthForm">
+    <label>Mood (1-10):</label>
+    <input type="number" id="mood" min="1" max="10" required />
+
+    <label>Water Intake (glasses):</label>
+    <input type="number" id="water" min="0" required />
+
+    <label>Sleep (hours):</label>
+    <input type="number" id="sleep" min="0" required />
+
+    <button type="submit">Save Entry</button>
+  </form>
+
+  <div id="summary">
+    <h2>Today's Summary</h2>
+    <ul id="result"></ul>
+  </div>
+
+  <div id="previousSummary">
+    <button id="viewPreviousSummary">View Previous Summary</button>
+    <div id="previousResult"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
