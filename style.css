@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #f1f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #2e7d32;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #2e7d32;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#summary {
+  margin-top: 20px;
+  background: #e8f5e9;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
